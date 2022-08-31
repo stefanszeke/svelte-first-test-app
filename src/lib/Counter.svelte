@@ -4,6 +4,8 @@
   $: reactiveValue = state * 2
   let nonreactiveValue = state * 2
 
+  let red = false
+
 function increment() {
   state++
 }
@@ -37,6 +39,12 @@ function counter(action) {
       <button on:click={increment}>+</button>
       <button on:click={decrement}>-</button>
   </div>
+
+  {#if state <= 5}
+    <p style="color: green;">counter is lesser than 5</p>
+  {:else}
+    <p style="color: red;">counter is greater than 5</p>
+  {/if}
 
 </div>
 
