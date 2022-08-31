@@ -1,5 +1,6 @@
 <script>
 import Counter from "./lib/Counter.svelte";
+import FruitsList from "./lib/FruitsList.svelte";
 import Title from "./lib/Title.svelte";
 
 </script>
@@ -11,6 +12,8 @@ import Title from "./lib/Title.svelte";
   <div class='box'> <Title /> <p class='component'>Title.svelte</p></div>
 
   <div class='box'> <Counter /> <p class='component'>Counter.svelte</p></div>
+
+  <div class='box'> <FruitsList /> <p class='component'>FruitsList.svelte</p></div>
 
 </div>
 
