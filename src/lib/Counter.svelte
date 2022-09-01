@@ -24,6 +24,7 @@ function counter(action) {
 </script>
 
 
+<!--  main   -->
 
 <div class='counter'>
   <div class='values'>
@@ -48,6 +49,7 @@ function counter(action) {
 
 </div>
 
+<!--         -->
 
 
 <style>

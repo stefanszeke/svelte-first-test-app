@@ -35,6 +35,9 @@ $: total = fruitCounter.reduce((acc, curr, index) => acc + curr*fruits[index].pr
 
 </script>
 
+
+<!--  main   -->
+
 <div class="fruits-list">
 
   <div class='legend'>
@@ -70,6 +73,9 @@ $: total = fruitCounter.reduce((acc, curr, index) => acc + curr*fruits[index].pr
 
 
 </div>
+
+<!--         -->
+
 
 <style>
 

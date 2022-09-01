@@ -1,7 +1,8 @@
 <script>
+import Title from "./lib/Title.svelte";
 import Counter from "./lib/Counter.svelte";
 import FruitsList from "./lib/FruitsList.svelte";
-import Title from "./lib/Title.svelte";
+import AwaitFetch from "./lib/AwaitFetch.svelte";
 
 </script>
 
@@ -14,6 +15,8 @@ import Title from "./lib/Title.svelte";
   <div class='box'> <Counter /> <p class='component'>Counter.svelte</p></div>
 
   <div class='box'> <FruitsList /> <p class='component'>FruitsList.svelte</p></div>
+
+  <div class='box'> <AwaitFetch /> <p class='component'>AwaitFetch.svelte</p></div>
 
 </div>
 

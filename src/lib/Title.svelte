@@ -8,8 +8,14 @@
   
 </script>
 
+
+<!--  main   -->
+
   <h2 on:click={changeColor} style="color: {titleColor}">Hello world</h2>
   <p>(click me)</p>
+
+<!--         -->
+
 
 <style>
   h2 {
