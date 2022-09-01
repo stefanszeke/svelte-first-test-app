@@ -4,4 +4,5 @@
 
 <br /><br />
 development: <br />
-run with `npm run dev`
+first install dependencies with `npm i` <br />
+then run with `npm run dev`
