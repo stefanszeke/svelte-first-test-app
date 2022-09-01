@@ -4,17 +4,17 @@ let fruits = [
   {
     name: 'Apple',
     price: 1,
-    image: '../../public/fruitsIMG/apple.png'
+    image: 'fruitsIMG/apple.png'
   },
   {
     name: 'Orange',
     price: 2,
-    image: '../../public/fruitsIMG/orange.png'
+    image: 'fruitsIMG/orange.png'
   },
   {
     name: 'Banana',
     price: 3,
-    image: '../../public/fruitsIMG/banana.png'
+    image: 'fruitsIMG/banana.png'
   }
 ]
 
@@ -154,6 +154,20 @@ $: total = fruitCounter.reduce((acc, curr, index) => acc + curr*fruits[index].pr
   .total {
     text-align: right;
   }
+
+@media screen and (max-width: 500px) {
+  .fruit {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .buy {
+    order: 4;
+  }
+
+  .legend {
+    display: none;
+  }
+}
 
 
 </style>
